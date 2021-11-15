@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+ {% block content %} 
+
+ <div class="card text-center">
+ <div class="card-body">
+ 	
+ 
+ 
+ <h3>ELECTION POLLS</h3>
+<p> 
+A benchmark poll is generally the first poll taken in a campaign. It is often taken before a candidate announces their bid for office, but sometimes it happens immediately following that announcement after they have had some opportunity to raise funds. This is generally a short and simple survey of likely voters.
+</p>
+
+<a class="btn btn-dark" href="{% url 'polls:index' %}">View Available Polls</a>
+
+</div>
+</div>
+
+ {% endblock %}
+
